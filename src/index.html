@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="h-screen w-screen bg-black">
+  <div class="flex justify-center content-center">
+    <div class="w-full flex justify-center content-center">
+    <div class="w-6/12 h-6/12 flex justify-between content-center">
+      <div class="mr-14">
+        <video id="demo-video" autoplay muted height="700">
+          <source src="./screen-recording.webm" type="video/webm" class="h-full" height="700px">
+      </div>
+      <div class="mt-24">
+        <img src="./logo.png" class="max-w-3xl mb-8" />
+        <p class="text-white text-center text-xl w-96">
+          Storytime ai is a mobile app that lets you build and read ai generated stories. Create your own theme, characters, storylines and illustrations. 
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script>
+    window.addEventListener('load', function() {
+      var video = document.getElementById('demo-video');
+      video.play();
+    });
+  </script>
+</body>
+
+</html>
